@@ -15,15 +15,15 @@
   },
   "episodes": {
     "standard": {
-      "default": "S{season:00}E{episode:00} - {Quality Full}]{-Release Group}",
+      "default": "S{season:00}E{episode:00} - [{Quality Full}]{-Release Group}",
       "original": "{Original Title}"
     },
     "daily": {
-      "default": "S{season:00}E{episode:00} - {Quality Full}]{-Release Group}",
+      "default": "S{season:00}E{episode:00} - [{Quality Full}]{-Release Group}",
       "original": "{Original Title}"
     },
     "anime": {
-      "default": "S{season:00}E{episode:00} - {Quality Full}]{-Release Group}"
+      "default": "S{season:00}E{episode:00} - [{Quality Full}]{-Release Group}"
     }
   }
 }
