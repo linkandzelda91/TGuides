@@ -3,7 +3,7 @@
     "default": "Season {season:00}"
   },
   "series": {
-    "default": "{Series TitleYear}",
+    "default": "{Series TitleYear} [imdbid-{ImdbId}]",
     "plex-imdb": "{Series TitleYear} {imdb-{ImdbId}}",
     "plex-tvdb": "{Series TitleYear} {tvdb-{TvdbId}}",
     "emby-imdb": "{Series TitleYear} [imdb-{ImdbId}]",
