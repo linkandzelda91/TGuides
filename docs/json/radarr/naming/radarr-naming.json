@@ -1,6 +1,6 @@
 {
   "folder": {
-    "default": "{Movie CleanTitle} ({Release Year})",
+    "default": "{Movie CleanTitle} ({Release Year}) [imdbid-{ImdbId}]",
     "plex-imdb": "{Movie CleanTitle} ({Release Year}) {imdb-{ImdbId}}",
     "plex-tmdb": "{Movie CleanTitle} ({Release Year}) {tmdb-{TmdbId}}",
     "emby-imdb": "{Movie CleanTitle} ({Release Year}) [imdb-{ImdbId}]",
