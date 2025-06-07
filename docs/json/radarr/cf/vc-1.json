@@ -1,6 +1,9 @@
 {
   "trash_id": "11cd1db7165d6a7ad9a83bc97b8b1060",
   "name": "VC-1",
+  "trash_scores": {
+  "default": -10000
+  },
   "includeCustomFormatWhenRenaming": false,
   "specifications": [
     {
