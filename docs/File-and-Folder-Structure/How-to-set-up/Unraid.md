@@ -75,7 +75,7 @@ You will need to create these subfolders yourself. You can do this in any way yo
 
 ### Fastest way to create the needed subfolders
 
-The fastest way to create all the necessary subfolders would be to use the terminal, use a program like [PuTTy](https://www.putty.org/){:target="\_blank" rel="noopener noreferrer"} or use the terminal from the dashboard.
+The fastest way to create all the necessary subfolders would be to use the terminal, use a program like [PuTTY](https://putty.software/){:target="\_blank" rel="noopener noreferrer"} or use the terminal from the dashboard.
 These options will automatically create the required subfolders for your media library as well as your preferred download client(s).
 If you use both torrents and Usenet, use both commands.
 
@@ -116,7 +116,12 @@ When you need to fix your permissions, for example, after you have moved/copied 
 !!! tip "Create a custom Docker network"
     Why would you want a custom Docker network?
 
-    A major benefit of having your Docker containers on the same custom Docker network is that they will be able to communicate with other using their container names, rather than having to use IP addresses.
+    A major benefit of having your Docker containers on the same custom Docker network is that they will be able to communicate with each other using their container names with the `.internal` domain (e.g., `radarr.internal`, `sonarr.internal`), rather than having to use IP addresses.
+
+    Using the `.internal` domain is recommended to avoid DNS conflicts and follows best practices for container networking.
+
+    !!! warning "Network Requirement"
+        The `.internal` domain will only resolve if all containers are attached to the same custom Docker network.
 
     Unraid doesn't create a custom Docker network by default, you need to create one yourself.
 

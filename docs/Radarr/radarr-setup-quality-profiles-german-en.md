@@ -2,7 +2,7 @@
 
 *aka How to setup Custom Formats to get German Audio if available*<br><br>
 
-!!! note "This guide is created and maintained by [Lokilicious](https://github.com/Lokilicious) and [PCJones](https://github.com/PCJones)"
+!!! note "This guide is created and maintained by [Lokilicious](https://github.com/Lokilicious), [PCJones](https://github.com/PCJones) and [LaurenceBarnes](https://github.com/LaurenceBarnes)"
 
 There isn't a *best* way to set up Custom Formats to get German (or German+English dual) audio. It depends on your setup (hardware devices) and personal preferences.
 
@@ -20,9 +20,6 @@ It is quite important that you follow and understand what is expected by TRaSH's
 - Setting up a quality Profile to make use of the Custom Formats, as explained in [How to setup Quality Profiles | Basics section](/Radarr/radarr-setup-quality-profiles/#basics){:target="_blank" rel="noopener noreferrer"}.
 
 !!! warning "Please read those two sections before continuing the guide, as they contain important information. The rest of this guide will assume you did."
-
-!!! tip
-    TRaSH created a [flowchart](/Radarr/Radarr-setup-custom-formats/#which-quality-profile-should-you-choose){:target="\_blank" rel="noopener noreferrer"} to make your decision easier. Remember that this chart does not include any of the following Custom Formats, and you will still need to read this guide to get German-only/German Dual Language("German DL") releases.
 
 ---
 
@@ -178,6 +175,8 @@ If you prefer 1080p Remuxes (Remux-1080p)
     - WEBDL-1080p
     - WEBRip-1080p
 
+{! include-markdown "../../includes/german-guide/radarr-german-audio-version-en.md" !}
+
 {! include-markdown "../../includes/german-guide/radarr-cf-german-remux-web-scoring-en.md" !}
 
 {! include-markdown "../../includes/cf/radarr-misc-required.md" !}
@@ -225,7 +224,7 @@ If you prefer High-Quality UHD Encodes (2160p)
 
 {! include-markdown "../../includes/german-guide/radarr-cf-german-uhd-bluray-web-scoring-en.md" !}
 
-{! include-markdown "../../includes/cf/radarr-all-hdr-formats.md" !}
+{! include-markdown "../../includes/cf/radarr-hdr-formats.md" !}
 
 {! include-markdown "../../includes/cf/radarr-misc-required.md" !}
 
@@ -265,7 +264,7 @@ If you prefer 2160p Remuxes (Remux-2160p)
 
 {! include-markdown "../../includes/german-guide/radarr-cf-german-remux-web-scoring-en.md" !}
 
-{! include-markdown "../../includes/cf/radarr-all-hdr-formats.md" !}
+{! include-markdown "../../includes/cf/radarr-hdr-formats.md" !}
 
 {! include-markdown "../../includes/cf/radarr-misc-required.md" !}
 
@@ -284,6 +283,48 @@ If you prefer 2160p Remuxes (Remux-2160p)
 {! include-markdown "../../includes/german-guide/radarr-german-misc-uhd-optional.md" !}
 
 {! include-markdown "../../includes/cf/radarr-movie-versions-imaxe.md" !}
+
+---
+
+### Anime HD Bluray + WEB
+
+If you prefer High-Quality HD Encodes for Anime (720p/1080p)
+
+??? abstract "Adapt the Quality Settings to Anime - [Click to show/hide]"
+    Please have a look here: [Quality Settings (File Size)](/Radarr/Radarr-Quality-Settings-File-Size/#animeanimatedcartoons){:target="_blank" rel="noopener noreferrer"}.
+
+!!! abstract "Recommended merging of qualities"
+
+    We recommend to [merge the following qualities](/Radarr/Tips/Merge-quality/):
+
+    - Bluray-1080p
+    - WEBDL-1080p
+    - WEBRip-1080p
+    - Bluray-720p
+    - WEBDL-720p
+    - WEBRip-720p
+
+{! include-markdown "../../includes/german-guide/radarr-german-anime-audio-version-en.md" !}
+
+{! include-markdown "../../includes/german-guide/radarr-cf-german-anime-hd-bluray-web-scoring-en.md" !}
+
+{! include-markdown "../../includes/cf/radarr-misc-required.md" !}
+
+{! include-markdown "../../includes/german-guide/radarr-german-anime-misc-required.md" !}
+
+{! include-markdown "../../includes/german-guide/radarr-cf-german-resolution-scoring-hd-only-en.md" !}
+
+{! include-markdown "../../includes/german-guide/radarr-german-anime-unwanted-en.md" !}
+
+{! include-markdown "../../includes/german-guide/radarr-german-anime-streaming-services-en.md" !}
+
+**The following Custom Formats are optional:**
+
+{! include-markdown "../../includes/german-guide/radarr-german-misc-optional.md" !}
+
+{! include-markdown "../../includes/german-guide/radarr-german-anime-misc-optional.md" !}
+
+{! include-markdown "../../includes/cf/radarr-movie-versions-imaxe-noremux.md" !}
 
 ---
 

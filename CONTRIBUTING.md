@@ -30,6 +30,7 @@ Here you will find guidelines for contributing to [TRaSH Guides](https://trash-g
     - [cf-groups](#cf-groups)
         - [Group Specific settings](#group-specific-settings)
         - [Group Custom Format specific settings](#group-custom-format-specific-settings)
+    - [quality-profile-groups](#quality-profile-groups)
 - [Recommendations](#recommendations)
     - [Preview Docs Locally](#preview-docs-locally)
     - [Preview after Pull Request](#preview-after-pull-request)
@@ -216,11 +217,14 @@ When updating or adding a new CF, the test case URL (`trash_regex`) needs to be 
 
 - Radarr: `docs/json/radarr/quality-profiles`
     - `docs/json/radarr/cf-groups`
+    - `docs/json/radarr/quality-profile-groups/groups.json`
 - Sonarr: `docs/json/sonarr/quality-profiles`
-    - `docs/json/Sonarr/cf-groups`
+    - `docs/json/sonarr/cf-groups`
+    - `docs/json/sonarr/quality-profile-groups/groups.json`
 
 - `docs/json/xxxarr/quality-profiles` = The base quality profile with all the mandatory Custom Formats.
 - `docs/json/xxxarr/cf-groups` = The optional/User choices that wouldn't break the Quality Profile.
+- `docs/json/xxxarr/quality-profile-groups` = The `groups.json` file contains an array of groups. The order of groups determines display order, and profiles within each group are sorted alphabetically by their name.
 
 ### quality-profiles
 
@@ -306,11 +310,52 @@ The cf-group.json exists of two properties.
     - `required` - [true|false] See the above note for a description
     - `default": "true"` - [**OPTIONAL**] If you want the CF to be enabled by default.
 - `quality_profiles`
-    - `exclude` - Add the Quality Profiles you want to exclude from this group, using the quality-profiles `name` and `trash_id`.
+    - `include` - Quality profiles that receive this CF group, using the profile `name` and `trash_id`.
+
+### quality-profile-groups
+
+Quality profile groups organize quality profiles into logical categories for easier discovery and selection.
+
+- Radarr: `docs/json/radarr/quality-profile-groups/groups.json`
+- Sonarr: `docs/json/sonarr/quality-profile-groups/groups.json`
+
+The `groups.json` file contains an array of groups. The order of groups determines display order, and profiles within each group are sorted alphabetically by their name.
+
+```json
+[
+    {
+        "name": "Standard",
+        "profiles": ["trash_id_1", "trash_id_2"]
+    },
+    {
+        "name": "Anime",
+        "profiles": ["trash_id_3"]
+    }
+]
+```
+
+- `name` - Display name for the profile group
+- `profiles` - Array of quality profile `trash_id` values belonging to this group
+
+> [!IMPORTANT]
+> All `trash_id` values in the `profiles` array must correspond to existing quality profiles in the `quality-profiles` directory. Each quality profile should belong to exactly one group.
 
 ---
 
 ## Recommendations
+
+### Pre-commit (autofix)
+
+This repo uses [pre-commit](https://pre-commit.com/) to automatically fix common issues (markdown formatting, table alignment, YAML lint, etc.) before you commit.
+
+```bash
+pip install pre-commit
+pre-commit install
+```
+
+Once installed, pre-commit runs automatically on `git commit` and will auto-fix what it can. If files are modified by the hooks, simply `git add` the changes and commit again.
+
+### VS Code
 
 Use [VSCode](https://code.visualstudio.com/) for editing. VS Code should recommend extensions to you
 based on the `.vscode/extensions.json` file, you should install all of them.

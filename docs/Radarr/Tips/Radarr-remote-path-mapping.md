@@ -71,7 +71,7 @@ Open up the download client. For this example, we will be using SABnzbd.
 ![!Sabnzbd Host](images/rpm-sabnzbd-host.png)
 
 This is what you put in your Host in Remote Path Mapping.
-This could be a `hostname`, `container name` or an `IP Address`
+This could be a `hostname`, `container name` (use `.internal` domain like `sabnzbd.internal` when using hotio containers with VPN) or an `IP Address`
 
 ??? example "example what to add in Add Remote Path Mapping - [Click to show/hide]"
 
@@ -101,7 +101,7 @@ Click on the browse button and browse to the location where the files are access
 
 The final result will look something like this:
 
-![!rpm-final-results]
+![!rpm-final-results](images/rpm-final-results.png)
 
 After these changes, the file should be able to be imported by Radarr.
 

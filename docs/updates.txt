@@ -1,3 +1,229 @@
+# 2026-03-22 02:30
+- [feat(guide-sync): Add the Sonarr German Anime profile to the groups.json](https://github.com/TRaSH-Guides/Guides/pull/2661)
+- [feat(guide-sync): Add the German Anime profile to the `groups.json`, update `CONTRIBUTING.md` to state that updating the `groups.json` is mandatory](https://github.com/TRaSH-Guides/Guides/pull/2659)
+- [fix(pr-naming-check): update regex to include 'deps' in title validation](https://github.com/TRaSH-Guides/Guides/pull/)
+- [feat(starr-anime): Include Repacks and Negates in the anime version CFs](https://github.com/TRaSH-Guides/Guides/pull/2655)
+- [feat(mkdocs): add navigation, search, and code highlighting improvements](https://github.com/TRaSH-Guides/Guides/pull/2649)
+- [chore(gha): update pr naming check to allow mkdocs](https://github.com/TRaSH-Guides/Guides/pull/2654)
+- [fix(hardlinks): avoid duplicate group scans and improve fclones validation](https://github.com/TRaSH-Guides/Guides/pull/2635)
+- [feat(radarr): Add RlsGrp `GuyZo` to `Upscaled` + `Generated Dynamic HDR`](https://github.com/TRaSH-Guides/Guides/pull/2653)
+
+# 2026-03-15 02:38
+- [fix(starr-german): Align custom format naming](https://github.com/TRaSH-Guides/Guides/pull/2646)
+- [fix(guide-sync): Sonarr WEB 1080p/2160p Alternative Quality Profile JSON Quality Ordering](https://github.com/TRaSH-Guides/Guides/pull/2651)
+- [feat(starr-german): German Anime Guide](https://github.com/TRaSH-Guides/Guides/pull/2619)
+
+# 2026-03-08 02:25
+- [feat(radarr): update Custom Format `Special Edition`](https://github.com/TRaSH-Guides/Guides/pull/2640)
+
+# 2026-03-01 02:33
+- [feat(starr-french): Add VF and VOSTFR quality profiles for Radarr and Sonarr](https://github.com/TRaSH-Guides/Guides/pull/2634)
+- [feat(guide): Add custom format group informational tables](https://github.com/TRaSH-Guides/Guides/pull/2638)
+
+# 2026-02-22 02:27
+- [style(guide-sync): improve Guide Sync page](https://github.com/TRaSH-Guides/Guides/pull/2613)
+- [feat(starr): wire existing quality-profile and profile-groups schemas into pre-commit](https://github.com/TRaSH-Guides/Guides/pull/2629)
+- [feat(starr): add JSON schemas for cf-groups and naming files](https://github.com/TRaSH-Guides/Guides/pull/2628)
+- [fix(starr-anime): rename profile references to [Anime] Remux-1080p](https://github.com/TRaSH-Guides/Guides/pull/2627)
+- [refactor(guide-sync): migrate CF groups to include semantics and invert quality order](https://github.com/TRaSH-Guides/Guides/pull/2590)
+- [feat(starr): Add RlsGrp `BLOOM` to `WEB Tier 03`](https://github.com/TRaSH-Guides/Guides/pull/2626)
+- [fix(starr): iT CF matching italian language code](https://github.com/TRaSH-Guides/Guides/pull/2540)
+- [feat(starr-french): add Audio Description (AD) CF](https://github.com/TRaSH-Guides/Guides/pull/2569)
+- [fix(starr): update Upscaled CF](https://github.com/TRaSH-Guides/Guides/pull/2620)
+- [feat(radarr): updated scores for a test profile](https://github.com/TRaSH-Guides/Guides/pull/2621)
+
+# 2026-02-08 02:44
+- [chore(guide): Update PayPal QR Images](https://github.com/TRaSH-Guides/Guides/pull/2617)
+- [feat(radarr): Added `YKW` to be matched as `MA` release](https://github.com/TRaSH-Guides/Guides/pull/2616)
+- [fix(radarr-anime): Broken links on the french anime radarr guide](https://github.com/TRaSH-Guides/Guides/pull/2615)
+
+# 2026-02-01 02:37
+- [feat(downloaders): Make mover.py version check more robust](https://github.com/TRaSH-Guides/Guides/pull/2611)
+- [fix(starr-anime): correct tier names and descriptions for anime web sections](https://github.com/TRaSH-Guides/Guides/pull/2610)
+- [fix(starr-anime): inconsistent naming](https://github.com/TRaSH-Guides/Guides/pull/2605)
+- [feat(downloaders): Add mover.py version check to the mover-tuning-start script](https://github.com/TRaSH-Guides/Guides/pull/2608)
+- [feat(radarr): Improved matching of the `IMAX-Enhanced` CF after rename](https://github.com/TRaSH-Guides/Guides/pull/2602)
+- [feat(starr-anime): Anime Tier adjustments after revamp](https://github.com/TRaSH-Guides/Guides/pull/2604)
+- [feat(starr-anime): Major overhaul to Anime Guide](https://github.com/TRaSH-Guides/Guides/pull/2541)
+
+# 2026-01-25 02:06
+- [feat(radarr): Add RlsGrp `MGE` and `TM` to `Bad Dual Groups`](https://github.com/TRaSH-Guides/Guides/pull/2598)
+- [feat(radarr): Updated a few CF for testing a new profile](https://github.com/TRaSH-Guides/Guides/pull/2597)
+
+# 2026-01-18 02:02
+- [feat(radarr): Added and updated a few CF for testing a new profile](https://github.com/TRaSH-Guides/Guides/pull/2596)
+- [fix(starr-french): Avoid false positive with Tanoshii in the release title](https://github.com/TRaSH-Guides/Guides/pull/2594)
+- [chore(guide-sync): Add JSON schema for quality profiles](https://github.com/TRaSH-Guides/Guides/pull/2588)
+- [fix(guide): Updated URL for Putty](https://github.com/TRaSH-Guides/Guides/pull/2591)
+
+# 2026-01-11 02:03
+- [feat(guide): Add User Promotion Deals](https://github.com/TRaSH-Guides/Guides/pull/2589)
+- [fix(hardlinks): Add a "fast" way to create folder structure to the Docker guide](https://github.com/TRaSH-Guides/Guides/pull/2586)
+- [fix(guide-sync): update Recyclarr URL to new Recyclarr URL](https://github.com/TRaSH-Guides/Guides/pull/2585)
+- [fix(starr): Cleaned up and improved readability of the regex for Repack1,2,3](https://github.com/TRaSH-Guides/Guides/pull/2581)
+- [feat(guide-sync): Add trash_url to quality profile JSON files](https://github.com/TRaSH-Guides/Guides/pull/2587)
+- [feat(radarr): add RlsGrp `Mesc` to `LQ`](https://github.com/TRaSH-Guides/Guides/pull/2582)
+- [fix(starr): Add negate for REAL PROPER|REPACK to the` Repack/Proper` to prevent double scoring](https://github.com/TRaSH-Guides/Guides/pull/2580)
+
+# 2026-01-04 02:04
+- [feat(starr): Add RlsGrp `TURG` to `Bad Dual Groups`](https://github.com/TRaSH-Guides/Guides/pull/2579)
+- [feat(starr): Enable `includeCustomFormatWhenRenaming` Repack 2/3 and add negate to prevent double scoring](https://github.com/TRaSH-Guides/Guides/pull/2577)
+- [feat(starr): Add RlsGrp `HHWEB` to WEB Tier 03](https://github.com/TRaSH-Guides/Guides/pull/2578)
+
+# 2025-12-28 00:31
+- [fix(downloaders): Update Fixing Run Errors script](https://github.com/TRaSH-Guides/Guides/pull/2574)
+
+# 2025-12-21 00:30
+- [feat(radarr): Move RlsGrp BYNDR to WEB Tier 01](https://github.com/TRaSH-Guides/Guides/pull/2573)
+
+# 2025-12-14 00:30
+- [feat(guide-sync): add profile groups](https://github.com/TRaSH-Guides/Guides/pull/2561)
+- [feat(radarr): Add RlsGrp `VisionXpert` to `Generated Dynamic HDR`](https://github.com/TRaSH-Guides/Guides/pull/2567)
+- [feat(starr): Move RlsGrp RAWR from WEB Tier 02 to WEB Tier 01](https://github.com/TRaSH-Guides/Guides/pull/2565)
+- [feat(radarr): Removed include Custom Format When Renaming For IMAX Enhanced](https://github.com/TRaSH-Guides/Guides/pull/2562)
+
+# 2025-12-07 00:30
+- [feat(starr): Add Streaming Service PLAY](https://github.com/TRaSH-Guides/Guides/pull/2558)
+- [feat(downloaders): Add support for unlimited numbers of qBt instances in the mover-tuner scripts](https://github.com/TRaSH-Guides/Guides/pull/2556)
+
+# 2025-11-30 00:29
+- [fix(radarr-german): add anchors to german-lq regex](https://github.com/TRaSH-Guides/Guides/pull/2542)
+
+# 2025-11-23 00:30
+- [feat(downloaders): Add update check and notifications for the mover-tuner scripts](https://github.com/TRaSH-Guides/Guides/pull/2547)
+- [fix(radarr): fix image link](https://github.com/TRaSH-Guides/Guides/pull/2543)
+
+# 2025-11-16 00:28
+- [fix(downloaders): updated mover-tuning-start and mover-tuning-end script to v20251112](https://github.com/TRaSH-Guides/Guides/pull/2539)
+- [feat(sonarr-anime): add KHFR to french anime fansub](https://github.com/TRaSH-Guides/Guides/pull/2534)
+- [feat(hardlinks): Added the unRaid All-in-One Script as recommended for fclones](https://github.com/TRaSH-Guides/Guides/pull/2532)
+- [feat(downloaders): Removed qBt theme links recommend qui or vue](https://github.com/TRaSH-Guides/Guides/pull/2533)
+
+# 2025-11-09 00:28
+- [feat(downloaders): How to use the unRaid qBit-Mover with the Mover Tuning plugin](https://github.com/TRaSH-Guides/Guides/pull/2526)
+- [feat(guide): Remove WEBDL exclusion from Dynamic Generate HDR custom format](https://github.com/TRaSH-Guides/Guides/pull/2531)
+
+# 2025-11-02 00:28
+- [feat(starr-anime): Add Cytox to Anime Web Tier 02](https://github.com/TRaSH-Guides/Guides/pull/2527)
+- [chore(contributors): Update CONTRIBUTORS.md](https://github.com/TRaSH-Guides/Guides/pull/)
+
+# 2025-10-26 00:26
+- [fix(radarr-french): incorrect quality group name in CF](https://github.com/TRaSH-Guides/Guides/pull/2523)
+- [chore(contributors): Update CONTRIBUTORS.md](https://github.com/TRaSH-Guides/Guides/pull/)
+
+# 2025-10-19 00:28
+- [feat(guide): Update Tier Descriptions](https://github.com/TRaSH-Guides/Guides/pull/2520)
+- [feat(guide): October 2025 Tier Membership update](https://github.com/TRaSH-Guides/Guides/pull/2521)
+- [docs: Add .internal domain recommendations for Docker container names](https://github.com/TRaSH-Guides/Guides/pull/2514)
+- [chore(contributors): Update CONTRIBUTORS.md](https://github.com/TRaSH-Guides/Guides/pull/)
+
+# 2025-10-12 00:25
+- [fix(sonarr): update webrip and webdl CF references](https://github.com/TRaSH-Guides/Guides/pull/2512)
+- [fix(guide): Updated streaming service scores for Sonarr](https://github.com/TRaSH-Guides/Guides/pull/2513)
+- [fix(guide-sync): Add missing HD Streaming Boosts to 1080p Sonarr quality profiles](https://github.com/TRaSH-Guides/Guides/pull/2511)
+- [feat(guide-sync): Move several CFs into CF group files and removing them from individual quality profiles, allowing for greater flexibility](https://github.com/TRaSH-Guides/Guides/pull/2509)
+
+# 2025-10-05 00:27
+- [feat(guide): Streaming Services Update](https://github.com/TRaSH-Guides/Guides/pull/2508)
+- [feat(starr-anime): Add KawaSubs to Anime Web Tier 06](https://github.com/TRaSH-Guides/Guides/pull/2505)
+- [fix(starr): update Upscale CF](https://github.com/TRaSH-Guides/Guides/pull/2502)
+- [chore(guide):  Update the site description](https://github.com/TRaSH-Guides/Guides/pull/2504)
+
+# 2025-09-28 00:27
+- [feat(starr-anime): Add CRUCiBLE to Anime Tier 03](https://github.com/TRaSH-Guides/Guides/pull/2499)
+- [fix(radarr): bcore regex could match movie titles](https://github.com/TRaSH-Guides/Guides/pull/2498)
+- [feat(radarr): Add `CORE` matching to the  `BCORE` streaming services custom format](https://github.com/TRaSH-Guides/Guides/pull/2494)
+- [feat(guide): Added the NEW `P2P/Scene Naming` to the Naming Scheme Guide](https://github.com/TRaSH-Guides/Guides/pull/2496)
+
+# 2025-09-21 00:27
+- [chore(contributors): Update CONTRIBUTORS.md](https://github.com/TRaSH-Guides/Guides/pull/)
+- [feat(guide-sync): Added more groups as optionals](https://github.com/TRaSH-Guides/Guides/pull/2476)
+- [feat(starr-german): Add Release Groups to German Tiers](https://github.com/TRaSH-Guides/Guides/pull/2489)
+- [fix(starr): HDR CF DV condition](https://github.com/TRaSH-Guides/Guides/pull/2492)
+
+# 2025-09-14 00:26
+- [chore(guide): Updated the home/index page](https://github.com/TRaSH-Guides/Guides/pull/2488)
+- [feat(radarr): Add RlsGrp `PiRAMiDHEAD` to `Remux Tier 01`](https://github.com/TRaSH-Guides/Guides/pull/2487)
+- [feat(starr): Renamed `DV (WEBDL)` to `DV (w/o HDR fallback)`](https://github.com/TRaSH-Guides/Guides/pull/2485)
+
+# 2025-09-07 00:26
+- [fix(starr): audio channel CFs consistency](https://github.com/TRaSH-Guides/Guides/pull/2478)
+- [update(anime): remove CRUCiBLE due to retagging](https://github.com/TRaSH-Guides/Guides/pull/2477)
+
+# 2025-08-31 00:27
+- [refactor(starr): remove unnecessary HDR regex](https://github.com/TRaSH-Guides/Guides/pull/2475)
+- [feat(starr): Refactoring of the HDR Formats](https://github.com/TRaSH-Guides/Guides/pull/2455)
+- [feat(starr-anime): Add Headpatter to Anime Tier 03](https://github.com/TRaSH-Guides/Guides/pull/2473)
+
+# 2025-08-24 00:28
+- [feat(radarr): Add RlsGrp `TheFarm` to `WEB Tier 01`](https://github.com/TRaSH-Guides/Guides/pull/2470)
+- [chore(misc): enable Renovate management of pre-commit hooks](https://github.com/TRaSH-Guides/Guides/pull/2467)
+- [feat(starr): Move RlsGrp `BYNDR` to `WEB Tier 02`](https://github.com/TRaSH-Guides/Guides/pull/2464)
+- [feat(sonarr): Add RlsGrp `BiOMA` to `Bad Dual Groups`](https://github.com/TRaSH-Guides/Guides/pull/2463)
+- [feat(radarr): Add DRX to LQ](https://github.com/TRaSH-Guides/Guides/pull/2466)
+
+# 2025-08-17 00:29
+- [chore(misc): improve Renovate configuration with PR method and smart dependency grouping](https://github.com/TRaSH-Guides/Guides/pull/2457)
+- [chore(contributors): Update CONTRIBUTORS.md](https://github.com/TRaSH-Guides/Guides/pull/)
+- [fix(gha): exclude ImgBotApp](https://github.com/TRaSH-Guides/Guides/pull/)
+- [chore(contributors): Update CONTRIBUTORS.md](https://github.com/TRaSH-Guides/Guides/pull/)
+- [fix(gha): add missing token for contributors](https://github.com/TRaSH-Guides/Guides/pull/)
+- [chore(gha): update contributors and remove complexity](https://github.com/TRaSH-Guides/Guides/pull/2449)
+
+# 2025-08-10 00:30
+- [feat(starr): Update scene](https://github.com/TRaSH-Guides/Guides/pull/2447)
+
+# 2025-08-03 00:31
+- [fix(config): allow renovate to migrate its own config](https://github.com/TRaSH-Guides/Guides/pull/2441)
+
+# 2025-07-27 00:31
+- [fix(guide-sync): Updated Radarr Optional Misc custom format group HFR ID to match Radarr custom format HFR ID](https://github.com/TRaSH-Guides/Guides/pull/2442)
+- [feat(guide): Add D3US to `lq-release-title.json`](https://github.com/TRaSH-Guides/Guides/pull/2439)
+
+# 2025-07-20 00:30
+- [feat(starr): Updated the Starr naming scheme and made it as consistent as possible](https://github.com/TRaSH-Guides/Guides/pull/2416)
+- [feat(starr-french): Update Group Tiers](https://github.com/TRaSH-Guides/Guides/pull/2437)
+- [feat(guide): Add `E` to Radarr `LQ` custom format](https://github.com/TRaSH-Guides/Guides/pull/2436)
+- [chore(misc): update copyright year](https://github.com/TRaSH-Guides/Guides/pull/2435)
+- [ci: tooling-fixes](https://github.com/TRaSH-Guides/Guides/pull/2434)
+- [ci: 💚 refactor GHA lint tools](https://github.com/TRaSH-Guides/Guides/pull/2421)
+- [feat(radarr): Increase SQP quality size for WEBDL/WEBRip-1080p](https://github.com/TRaSH-Guides/Guides/pull/2428)
+- [feat(radarr): Re-Tier/Move RlsGRp Flights to Generated Dynamic HDR](https://github.com/TRaSH-Guides/Guides/pull/2429)
+- [fix(starr): remove sphd](https://github.com/TRaSH-Guides/Guides/pull/2426)
+
+# 2025-07-13 00:30
+- [feat(starr): Add some scene groups](https://github.com/TRaSH-Guides/Guides/pull/2419)
+- [fix(starr): Update the maximum file size score to reflect the new maximum file size.](https://github.com/TRaSH-Guides/Guides/pull/2422)
+
+# 2025-06-29 00:29
+- [feat(starr-anime): Add B00BA to Anime Tier 03](https://github.com/TRaSH-Guides/Guides/pull/2417)
+
+# 2025-06-22 00:29
+- [feat(guide-sync): Added SQP-3 (Audio)](https://github.com/TRaSH-Guides/Guides/pull/2414)
+- [feat(downloaders): Add `sln` and `vcxproj` to the SABnzbd/NZBGet Unwanted Extensions List](https://github.com/TRaSH-Guides/Guides/pull/2403)
+- [feat(guide-sync): Added the missing movie versions: Open Matte, Theatrical Cut, and Hybrid](https://github.com/TRaSH-Guides/Guides/pull/2409)
+- [feat(starr): Improve the HDR Formats layout in the Starr profiles](https://github.com/TRaSH-Guides/Guides/pull/2410)
+
+# 2025-06-15 00:29
+- [feat(radarr): Add READ NOTE to Radarr lq-release-title.json](https://github.com/TRaSH-Guides/Guides/pull/2406)
+- [feat(starr): Add RlsGrp `RAWR` to `WEB Tier 02`](https://github.com/TRaSH-Guides/Guides/pull/2407)
+
+# 2025-06-01 00:32
+- [feat(guide): Add `HDHUB4U` to Radarr LQ JSON](https://github.com/TRaSH-Guides/Guides/pull/2404)
+- [fix(starr-german): add ML to German CF to avoid matching ML](https://github.com/TRaSH-Guides/Guides/pull/2400)
+- [feat(starr): add `BiOMA` and `sh4down` to Bad Dual Groups](https://github.com/TRaSH-Guides/Guides/pull/2399)
+
+# 2025-05-25 00:28
+- [feat(radarr): add AOC to LQ](https://github.com/TRaSH-Guides/Guides/pull/2396)
+- [chore(starr): remove duplicate guide-only CFs](https://github.com/TRaSH-Guides/Guides/pull/2398)
+- [ci(markdownlint): disable MD036 and MD059 markdownlint rules](https://github.com/TRaSH-Guides/Guides/pull/2397)
+
+# 2025-05-18 00:27
+- [fix(starr-german): Add german audio block to sonarr and radarr HD remux profiles](https://github.com/TRaSH-Guides/Guides/pull/2393)
+
+# 2025-05-11 00:27
+- [feat(radarr): Add `ZoroSenpai` to `HD Bluray Tier 01` and `WEB Tier 01`](https://github.com/TRaSH-Guides/Guides/pull/2391)
+
 # 2025-05-04 00:28
 - [feat(downloaders): Added a description of what the mover script does +  Mover Tuning tips](https://github.com/TRaSH-Guides/Guides/pull/2389)
 - [fix(radarr): PiRaTeS & EVO LQ (Release Title) regex](https://github.com/TRaSH-Guides/Guides/pull/2388)

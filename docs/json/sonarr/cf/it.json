@@ -1,8 +1,9 @@
 {
   "trash_id": "0ac24a2a68a9700bcb7eeca8e5cd644c",
   "trash_scores": {
-    "default": 50
+    "default": 75
   },
+  "trash_regex": "https://regex101.com/r/ptwLDS/1",
   "name": "iT",
   "includeCustomFormatWhenRenaming": true,
   "specifications": [
@@ -21,7 +22,7 @@
       "negate": false,
       "required": false,
       "fields": {
-        "value": "\\[(iT)\\b|\\b(iT)\\]"
+        "value": "\\[(iT)(?![+])\\b|\\b(?<![+])(iT)\\]"
       }
     },
     {

@@ -16,15 +16,16 @@
     | [{{ sonarr['cf']['nf']['name'] }}](/Sonarr/sonarr-collection-of-custom-formats/#nf)                                             |         {{ sonarr['cf']['nf']['trash_scores']['default'] }}          | {{ sonarr['cf']['nf']['trash_id'] }}                  |
     | [{{ sonarr['cf']['pmtp']['name'] }}](/Sonarr/sonarr-collection-of-custom-formats/#pmtp)                                         |        {{ sonarr['cf']['pmtp']['trash_scores']['default'] }}         | {{ sonarr['cf']['pmtp']['trash_id'] }}                |
     | [{{ sonarr['cf']['pcok']['name'] }}](/Sonarr/sonarr-collection-of-custom-formats/#pcok)                                         |        {{ sonarr['cf']['pcok']['trash_scores']['default'] }}         | {{ sonarr['cf']['pcok']['trash_id'] }}                |
+    | [{{ sonarr['cf']['play']['name'] }}](/Sonarr/sonarr-collection-of-custom-formats/#play)                                         |        {{ sonarr['cf']['play']['trash_scores']['default'] }}         | {{ sonarr['cf']['play']['trash_id'] }}                |
     | [{{ sonarr['cf']['sho']['name'] }}](/Sonarr/sonarr-collection-of-custom-formats/#sho)                                           |         {{ sonarr['cf']['sho']['trash_scores']['default'] }}         | {{ sonarr['cf']['sho']['trash_id'] }}                 |
     | [{{ sonarr['cf']['stan']['name'] }}](/Sonarr/sonarr-collection-of-custom-formats/#stan)                                         |        {{ sonarr['cf']['stan']['trash_scores']['default'] }}         | {{ sonarr['cf']['stan']['trash_id'] }}                |
-    | [{{ sonarr['cf']['syfy']['name'] }}](/Sonarr/sonarr-collection-of-custom-formats/#syfy)                                         |  {{ sonarr['cf']['syfy']['trash_scores']['default'] }}         | {{ sonarr['cf']['syfy']['trash_id'] }}                |
+    | [{{ sonarr['cf']['syfy']['name'] }}](/Sonarr/sonarr-collection-of-custom-formats/#syfy)                                         |        {{ sonarr['cf']['syfy']['trash_scores']['default'] }}         | {{ sonarr['cf']['syfy']['trash_id'] }}                |
     | :warning: [{{ sonarr['cf']['uhd-streaming-boost']['name'] }}](/Sonarr/sonarr-collection-of-custom-formats/#uhd-streaming-boost) | {{ sonarr['cf']['uhd-streaming-boost']['trash_scores']['default'] }} | {{ sonarr['cf']['uhd-streaming-boost']['trash_id'] }} |
-    | :warning: [{{ sonarr['cf']['uhd-streaming-cut']['name'] }}](/Sonarr/sonarr-collection-of-custom-formats/#uhd-streaming-cut)     |  {{ sonarr['cf']['uhd-streaming-cut']['trash_scores']['default'] }}  | {{ sonarr['cf']['uhd-streaming-cut']['trash_id'] }}   |
+    | :warning: [{{ sonarr['cf']['hd-streaming-boost']['name'] }}](/Sonarr/sonarr-collection-of-custom-formats/#hd-streaming-boost)   | {{ sonarr['cf']['hd-streaming-boost']['trash_scores']['default'] }}  | {{ sonarr['cf']['hd-streaming-boost']['trash_id'] }}  |
 
-    !!! warning "UHD Streaming Boost and UHD Streaming Cut Custom Formats"
+    !!! warning "UHD Streaming Boost and HD Streaming Boost Custom Formats"
 
-    Some streaming services have UHD releases that are generally better or worse than their HD counterparts. The UHD Streaming Boost and UHD Streaming Cut custom formats adjust those streaming services' scores appropriately for UHD releases.
+    The UHD Streaming Boost and HD Streaming Boost custom formats increase the scores of streaming services' UHD or HD releases (or both), when those services are known to have better quality compared to other streaming services.
 
-    These two custom formats must be included in your profile for UHD releases to be scored correctly.
+    These two custom formats must be included in your profile for streaming service releases to be scored correctly.
 <!-- markdownlint-enable MD041-->

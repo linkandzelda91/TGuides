@@ -17,9 +17,6 @@ It is quite important that you follow and understand what is envisioned by TRaSH
 
 !!! warning "Please read those two sections before continuing the guide as they hold important information. The rest of this guide will assume you did."
 
-!!! tip
-    TRaSH created a [flowchart](/Radarr/Radarr-setup-custom-formats/#which-quality-profile-should-you-choose){:target="\_blank" rel="noopener noreferrer"} to make your decision easier. Remember that this chart does not include any of the following Custom Formats, and you will still need to read this guide to get MULTi releases.
-
 ---
 
 ## FAQ
@@ -92,6 +89,8 @@ It is quite important that you follow and understand what is envisioned by TRaSH
 {! include-markdown "../../includes/french-guide/french-guide-french-audio-information-en.md" !}
 
 {! include-markdown "../../includes/french-guide/radarr-french-audio-version-en.md" !}
+
+{! include-markdown "../../includes/french-guide/radarr-french-audio-description-en.md" !}
 
 ---
 
@@ -196,7 +195,7 @@ Note: The `Audio Formats` Custom Formats aren't used in the HD Bluray + WEB prof
 
 {! include-markdown "../../includes/french-guide/radarr-cf-french-uhd-bluray-web-scoring-en.md" !}
 
-{! include-markdown "../../includes/cf/radarr-all-hdr-formats.md" !}
+{! include-markdown "../../includes/cf/radarr-hdr-formats.md" !}
 
 {! include-markdown "../../includes/cf/radarr-misc-required.md" !}
 
@@ -239,7 +238,7 @@ Note: The `Audio Formats` Custom Formats aren't used in the HD Bluray + WEB prof
 
 {! include-markdown "../../includes/french-guide/radarr-cf-french-remux-web-scoring-en.md" !}
 
-{! include-markdown "../../includes/cf/radarr-all-hdr-formats.md" !}
+{! include-markdown "../../includes/cf/radarr-hdr-formats.md" !}
 
 {! include-markdown "../../includes/cf/radarr-misc-required.md" !}
 

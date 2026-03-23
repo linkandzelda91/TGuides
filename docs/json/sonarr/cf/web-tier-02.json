@@ -2,8 +2,8 @@
   "trash_id": "58790d4e2fdcd9733aa7ae68ba2bb503",
   "trash_scores": {
     "default": 1650,
-    "anime-sonarr": 250,
-    "french-multi-vf": 0
+    "french-multi-vf": 0,
+    "german-anime": 250
   },
   "name": "WEB Tier 02",
   "includeCustomFormatWhenRenaming": false,
@@ -33,6 +33,15 @@
       "required": false,
       "fields": {
         "value": "^(BTW)$"
+      }
+    },
+    {
+      "name": "BYNDR",
+      "implementation": "ReleaseGroupSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "^(BYNDR)$"
       }
     },
     {

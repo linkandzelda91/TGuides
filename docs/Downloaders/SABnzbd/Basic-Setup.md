@@ -50,6 +50,8 @@ The default is empty, we picked history because it is easy. It'll end up in the 
 
 ## Servers
 
+--8<-- "includes/downloaders/usp.md"
+
 [SABnzbd Documentation](https://sabnzbd.org/wiki/configuration/4.3/servers){:target="\_blank" rel="noopener noreferrer"}
 
 `Settings` => `Servers` => `Add Server`
@@ -103,9 +105,7 @@ Covered and fully explained in [SABnzbd - Paths and Categories](/Downloaders/SAB
 
 Add these extensions (*primarily for Windows users as they could potentially be abused or exploited*) to your `Unwanted extensions` list.
 
-```none
-ade, adp, app, application, appref-ms, asp, aspx, asx, bas, bat, bgi, cab, cer, chm, cmd, cnt, com, cpl, crt, csh, der, diagcab, exe, fxp, gadget, grp, hlp, hpj, hta, htc, inf, ins, iso, isp, its, jar, jnlp, js, jse, ksh, lnk, mad, maf, mag, mam, maq, mar, mas, mat, mau, mav, maw, mcf, mda, mdb, mde, mdt, mdw, mdz, msc, msh, msh1, msh2, mshxml, msh1xml, msh2xml, msi, msp, mst, msu, ops, osd, pcd, pif, pl, plg, prf, prg, printerexport, ps1, ps1xml, ps2, ps2xml, psc1, psc2, psd1, psdm1, pst, py, pyc, pyo, pyw, pyz, pyzw, reg, scf, scr, sct, shb, shs, theme, tmp, url, vb, vbe, vbp, vbs, vhd, vhdx, vsmacros, vsw, webpnp, website, ws, wsc, wsf, wsh, xbap, xll, xnk
-```
+{! include-markdown "../../../includes/downloaders/unwanted-extensions.md" !}
 
 Afterwards you need to make the following adjustments:
 
@@ -158,7 +158,10 @@ Then go in to `Settings` => `Special` => `Values`.
 
 Scroll down to `host_whitelist (  )` and enter your Docker container name and or your domain name.
 
-Example: `sabnzbd.domain.tld, <container name >`
+!!! tip
+    When using hotio containers with VPN, use the `.internal` domain for container names (e.g., `sabnzbd.internal`) to ensure proper connectivity.
+
+Example: `sabnzbd.domain.tld, sabnzbd.internal`
 
 ![!SABnzbd: host_whitelist (  )](images/sabnzbd-special-host-whitelist.png)
 

@@ -33,24 +33,24 @@ We've made 3 guides related to this.
 
 ---
 
-| Audio Formats                         | Audio Channels               | HDR Formats                       | HDR Optional                           |
-| ------------------------------------- | ---------------------------- | --------------------------------- | -------------------------------------- |
-| [TrueHD ATMOS](#truehd-atmos)         | [1.0 Mono](#10-mono)         | [DV HDR10+](#dv-hdr10plus)        | [DV (Disk)](#dv-disk)                  |
-| [DTS X](#dts-x)                       | [2.0 Stereo](#20-stereo)     | [DV HDR10](#dv-hdr10)             | [DV (WEBDL)](#dv-webdl)                |
-| [ATMOS (undefined)](#atmos-undefined) | [3.0 Sound](#30-sound)       | [DV](#dv)                         | [DV HDR10+ Boost](#dv-hdr10plus-boost) |
-| [DD+ ATMOS](#ddplus-atmos)            | [4.0 Sound](#40-sound)       | [DV HLG](#dv-hlg)                 | [HDR10+ Boost](#hdr10plus-boost)       |
-| [TrueHD](#truehd)                     | [5.1 Surround](#51-surround) | [DV SDR](#dv-sdr)                 | [SDR](#sdr)                            |
-| [DTS-HD MA](#dts-hd-ma)               | [6.1 Surround](#61-surround) | [HDR10+](#hdr10plus)              | [SDR (no WEBDL)](#sdr-no-webdl)        |
-| [DD+](#ddplus)                        | [7.1 Surround](#71-surround) | [HDR10](#hdr10)                   |                                        |
-| [DTS-ES](#dts-es)                     |                              | [HDR](#hdr)                       |                                        |
-| [DTS](#dts)                           |                              | [HDR (undefined)](#hdr-undefined) |                                        |
-| [FLAC](#flac)                         |                              | [PQ](#pq)                         |                                        |
-| [PCM](#pcm)                           |                              | [HLG](#hlg)                       |                                        |
-| [DTS-HD HRA](#dts-hd-hra)             |                              |                                   |                                        |
-| [AAC](#aac)                           |                              |                                   |                                        |
-| [DD](#dd)                             |                              |                                   |                                        |
-| [MP3](#mp3)                           |                              |                                   |                                        |
-| [Opus](#opus)                         |                              |                                   |                                        |
+| Audio Formats                         | Audio Channels               | HDR Formats                      | HDR Optional                                 |
+| ------------------------------------- | ---------------------------- | -------------------------------- | -------------------------------------------- |
+| [TrueHD ATMOS](#truehd-atmos)         | [1.0 Mono](#10-mono)         | [HDR](#hdr)                      | [DV (Disk)](#dv-disk)                        |
+| [DTS X](#dts-x)                       | [2.0 Stereo](#20-stereo)     | [DV Boost](#dv-boost)            | [DV (w/o HDR fallback)](#dv-wo-hdr-fallback) |
+| [ATMOS (undefined)](#atmos-undefined) | [3.0 Sound](#30-sound)       | [HDR10+ Boost](#hdr10plus-boost) | [SDR](#sdr)                                  |
+| [DD+ ATMOS](#ddplus-atmos)            | [4.0 Sound](#40-sound)       |                                  | [SDR (no WEBDL)](#sdr-no-webdl)              |
+| [TrueHD](#truehd)                     | [5.1 Surround](#51-surround) |                                  |                                              |
+| [DTS-HD MA](#dts-hd-ma)               | [6.1 Surround](#61-surround) |                                  |                                              |
+| [DD+](#ddplus)                        | [7.1 Surround](#71-surround) |                                  |                                              |
+| [DTS-ES](#dts-es)                     |                              |                                  |                                              |
+| [DTS](#dts)                           |                              |                                  |                                              |
+| [FLAC](#flac)                         |                              |                                  |                                              |
+| [PCM](#pcm)                           |                              |                                  |                                              |
+| [DTS-HD HRA](#dts-hd-hra)             |                              |                                  |                                              |
+| [AAC](#aac)                           |                              |                                  |                                              |
+| [DD](#dd)                             |                              |                                  |                                              |
+| [MP3](#mp3)                           |                              |                                  |                                              |
+| [Opus](#opus)                         |                              |                                  |                                              |
 
 ---
 
@@ -74,11 +74,12 @@ We've made 3 guides related to this.
 | General Streaming Services | Asian Streaming Services | Dutch Streaming Services |
 | -------------------------- | ------------------------ | ------------------------ |
 | [Amazon](#amzn)            | [FOD](#fod)              | [Pathe Thuis](#pathe)    |
-| [Apple TV+](#atvp)         | [Disney+ Hotstar](#htsr) | [Videoland](#vdl)        |
-| [Bravia Core](#bcore)      | [TVer](#tver)            |                          |
-| [Criterion Channel](#crit) | [TVING](#tving)          |                          |
-| [Disney+](#dsnp)           | [U-NEXT](#u-next)        |                          |
-| [HBO](#hbo)                | [VIU](#viu)              |                          |
+| [Apple TV](#atv)           | [Disney+ Hotstar](#htsr) | [Videoland](#vdl)        |
+| [Apple TV+](#atvp)         | [TVer](#tver)            |                          |
+| [Bravia Core](#bcore)      | [TVING](#tving)          |                          |
+| [Criterion Channel](#crit) | [U-NEXT](#u-next)        |                          |
+| [Disney+](#dsnp)           | [VIU](#viu)              |                          |
+| [HBO](#hbo)                |                          |                          |
 | [HBO Max](#hmax)           |                          |                          |
 | [Hulu](#hulu)              |                          |                          |
 | [iTunes](#it)              |                          |                          |
@@ -87,6 +88,8 @@ We've made 3 guides related to this.
 | [Netflix](#nf)             |                          |                          |
 | [Peacock TV](#pcok)        |                          |                          |
 | [Paramount+](#pmtp)        |                          |                          |
+| [Google Play](#play)       |                          |                          |
+| [ROKU](#roku)              |                          |                          |
 | [Stan](#stan)              |                          |                          |
 
 | UK Streaming Services | Misc Streaming Services | Anime Streaming Services |
@@ -99,64 +102,73 @@ We've made 3 guides related to this.
 
 ---
 
-| Miscellaneous                                         | Language profiles                                                  |
-|-------------------------------------------------------|--------------------------------------------------------------------|
-| [720p](#720p)                                         | [Language: German](#language-german)                               |
-| [1080p](#1080p)                                       | [Language: German DL](#language-german-dl)                         |
-| [2160p](#2160p)                                       | [Language: German DL (undefined)](#language-german-dl-undefined)   |
-| [Bad Dual Groups](#bad-dual-groups)                   | [Language: Not English (English Only)](#language-not-english)      |
-| [Black and White Editions](#black-and-white-editions) | [Language: Not French (French Only)](#language-not-french)         |
-| [Dutch Groups](#dutch-groups)                         | [Language: Not Original (Original Only)](#language-not-original)   |
-| [FreeLeech](#freeleech)                               | [Language: Original + French](#language-original-plus-french)      |
-| [HFR](#hfr)                                           | [Language: Not German or English](#language-not-german-or-english) |
-| [Internal](#internal)                                 |                                                                    |
-| [MPEG2](#mpeg2)                                       |                                                                    |
-| [Multi](#multi)                                       |                                                                    |
-| [No-RlsGroup](#no-rlsgroup)                           |                                                                    |
-| [Obfuscated](#obfuscated)                             |                                                                    |
-| [Repack/Proper](#repackproper)                        |                                                                    |
-| [Repack2](#repack2)                                   |                                                                    |
-| [Repack3](#repack3)                                   |                                                                    |
-| [Retags](#retags)                                     |                                                                    |
-| [Scene](#scene)                                       |                                                                    |
-| [VC-1](#vc-1)                                         |                                                                    |
-| [VP9](#vp9)                                           |                                                                    |
-| [x264](#x264)                                         |                                                                    |
-| [x265 (no HDR/DV)](#x265-no-hdrdv)                    |                                                                    |
-| [x265](#x265)                                         |                                                                    |
-| [x266](#x266)                                         |                                                                    |
+| Miscellaneous                                         | Language profiles                                                                                                     |
+|-------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------|
+| [720p](#720p)                                         | [Language: German](#language-german)                                                                                  |
+| [1080p](#1080p)                                       | [Language: German DL](#language-german-dl)                                                                            |
+| [2160p](#2160p)                                       | [Language: German DL (undefined)](#language-german-dl-undefined)                                                      |
+| [Bad Dual Groups](#bad-dual-groups)                   | [Language: Not English (English Only)](#language-not-english)                                                         |
+| [Black and White Editions](#black-and-white-editions) | [Language: Not French (French Only)](#language-not-french)                                                            |
+| [Dutch Groups](#dutch-groups)                         | [Language: Not Original (Original Only)](#language-not-original)                                                      |
+| [FreeLeech](#freeleech)                               | [Language: Original + French](#language-original-plus-french)                                                         |
+| [HFR](#hfr)                                           | [Language: Not German or English](#language-not-german-or-english)                                                    |
+| [Internal](#internal)                                 | [Language: Not German, Japanese or English](#language-not-german-japanese-or-english)                                 |
+| [MPEG2](#mpeg2)                                       | [Language: Not German, Japanese, Korean, Chinese or English](#language-not-german-japanese-korean-chinese-or-english) |
+| [Multi](#multi)                                       | [Language: German Anime Subbed](#language-german-anime-subbed)                                                        |
+| [No-RlsGroup](#no-rlsgroup)                           |                                                                                                                       |
+| [Obfuscated](#obfuscated)                             |                                                                                                                       |
+| [Repack/Proper](#repackproper)                        |                                                                                                                       |
+| [Repack2](#repack2)                                   |                                                                                                                       |
+| [Repack3](#repack3)                                   |                                                                                                                       |
+| [Retags](#retags)                                     |                                                                                                                       |
+| [Scene](#scene)                                       |                                                                                                                       |
+| [VC-1](#vc-1)                                         |                                                                                                                       |
+| [VP9](#vp9)                                           |                                                                                                                       |
+| [WiTH AD](#with-ad)                                   |                                                                                                                       |
+| [x264](#x264)                                         |                                                                                                                       |
+| [x265 (no HDR/DV)](#x265-no-hdrdv)                    |                                                                                                                       |
+| [x265](#x265)                                         |                                                                                                                       |
+| [x266](#x266)                                         |                                                                                                                       |
 
 ---
 
-| Anime                                                                       | Anime                                                                 | Anime     | Anime Optional                        |
-| --------------------------------------------------------------------------- | --------------------------------------------------------------------- | --------- | ------------------------------------- |
-| [Anime BD Tier 01 (Top SeaDex Muxers)](#anime-bd-tier-01-top-seadex-muxers) | [Anime Web Tier 01 (Muxers)](#anime-web-tier-01-muxers)               | [v0](#v0) | [Uncensored](#uncensored)             |
-| [Anime BD Tier 02 (SeaDex Muxers)](#anime-bd-tier-02-seadex-muxers)         | [Anime Web Tier 02 (Top FanSubs)](#anime-web-tier-02-top-fansubs)     | [v1](#v1) | [10bit](#10bit)                       |
-| [Anime BD Tier 03 (SeaDex Muxers)](#anime-bd-tier-03-seadex-muxers)         | [Anime Web Tier 03 (Official Subs)](#anime-web-tier-03-official-subs) | [v2](#v2) | [Anime Dual Audio](#anime-dual-audio) |
-| [Anime BD Tier 04 (SeaDex Muxers)](#anime-bd-tier-04-seadex-muxers)         | [Anime Web Tier 04 (Official Subs)](#anime-web-tier-04-official-subs) | [v3](#v3) | [Dubs Only](#dubs-only)               |
-| [Anime BD Tier 05 (Remuxes)](#anime-bd-tier-05-remuxes)                     | [Anime Web Tier 05 (FanSubs)](#anime-web-tier-05-fansubs)             | [v4](#v4) |                                       |
-| [Anime BD Tier 06 (FanSubs)](#anime-bd-tier-06-fansubs)                     | [Anime Web Tier 06 (FanSubs)](#anime-web-tier-06-fansubs)             |           |                                       |
-| [Anime BD Tier 07 (P2P/Scene)](#anime-bd-tier-07-p2pscene)                  | [Anime Raws](#anime-raws)                                             |           |                                       |
-| [Anime BD Tier 08 (Mini Encodes)](#anime-bd-tier-08-mini-encodes)           | [Anime LQ Groups](#anime-lq-groups)                                   |           |                                       |
+| Anime                                  | Anime                                   | Anime     | Anime Optional                        |
+| -------------------------------------- | --------------------------------------- | --------- | ------------------------------------- |
+| [Anime BD Tier 01](#anime-bd-tier-01)  | [Anime Web Tier 01](#anime-web-tier-01) | [v0](#v0) | [Uncensored](#uncensored)             |
+| [Anime BD Tier 02](#anime-bd-tier-02)  | [Anime Web Tier 02](#anime-web-tier-02) | [v1](#v1) | [10bit](#10bit)                       |
+| [Anime BD Tier 03](#anime-bd-tier-03)  | [Anime Web Tier 03](#anime-web-tier-03) | [v2](#v2) | [Anime Dual Audio](#anime-dual-audio) |
+| [Anime BD Tier 04](#anime-bd-tier-04)  | [Anime Web Tier 04](#anime-web-tier-04) | [v3](#v3) | [Dubs Only](#dubs-only)               |
+| [Anime BD Tier 05](#anime-bd-tier-05)  | [Anime Web Tier 05](#anime-web-tier-05) | [v4](#v4) |                                       |
+| [Anime BD Tier 06](#anime-bd-tier-06)  | [Anime Web Tier 06](#anime-web-tier-06) |           |                                       |
+| [Anime BD Tier 07](#anime-bd-tier-07)  | [Anime Raws](#anime-raws)               |           |                                       |
+| [Anime BD Tier 08](#anime-bd-tier-08)  | [Anime LQ Groups](#anime-lq-groups)     |           |                                       |
 
 ---
 
-| German Source Groups                            | German Miscellaneous                                  | French Source Groups                            | French Audio Version |
-| ----------------------------------------------- | ----------------------------------------------------- | ----------------------------------------------- | -------------------- |
-| [German Remux Tier 01](#german-remux-tier-01)   | [German LQ](#german-lq)                               | [FR Remux Tier 01](#fr-remux-tier-01)           | [VFF](#vff)          |
-| [German Remux Tier 02](#german-remux-tier-02)   | [German LQ (Release Title)](#german-lq-release-title) | [FR Remux Tier 02](#fr-remux-tier-02)           | [VOF](#vof)          |
-| [German Bluray Tier 01](#german-bluray-tier-01) | [German Microsized](#german-microsized)               | [FR UHD Bluray Tier 01](#fr-uhd-bluray-tier-01) | [VFI](#vfi)          |
-| [German Bluray Tier 02](#german-bluray-tier-02) | [German 1080p Booster](#german-1080p-booster)         | [FR UHD Bluray Tier 02](#fr-uhd-bluray-tier-02) | [VF2](#vf2)          |
-| [German Bluray Tier 03](#german-bluray-tier-03) | [German 2160p Booster](#german-2160p-booster)         | [FR HD Bluray Tier 01](#fr-hd-bluray-tier-01)   | [VFQ](#vfq)          |
-| [German Web Tier 01](#german-web-tier-01)       | [Line/Mic Dubbed](#linemic-dubbed)                    | [FR HD Bluray Tier 02](#fr-hd-bluray-tier-02)   | [VOQ](#voq)          |
-| [German Web Tier 02](#german-web-tier-02)       |                                                       | [FR WEB Tier 01](#fr-web-tier-01)               | [VQ](#vq)            |
-| [German Web Tier 03](#german-web-tier-03)       |                                                       | [FR WEB Tier 02](#fr-web-tier-02)               | [VFB](#vfb)          |
-| [German Scene](#german-scene)                   |                                                       | [FR Anime Tier 01](#fr-anime-tier-01)           | [VOSTFR](#vostfr)    |
-|                                                 |                                                       | [FR Anime Tier 02](#fr-anime-tier-02)           | [FanSUB](#fansub)    |
-|                                                 |                                                       | [FR Anime Tier 03](#fr-anime-tier-03)           | [FastSUB](#fastsub)  |
-|                                                 |                                                       | [FR Anime FanSub](#fr-anime-fansub)             |                      |
-|                                                 |                                                       | [FR Scene Groups](#fr-scene-groups)             |                      |
-|                                                 |                                                       | [FR LQ](#fr-lq)                                 |                      |
+| German Source Groups                                        | German Miscellaneous                                  | French Source Groups                            | French Audio Version |
+| ----------------------------------------------------------- | ----------------------------------------------------- | ----------------------------------------------- | -------------------- |
+| [German Remux Tier 01](#german-remux-tier-01)               | [German LQ](#german-lq)                               | [FR Remux Tier 01](#fr-remux-tier-01)           | [VFF](#vff)          |
+| [German Remux Tier 02](#german-remux-tier-02)               | [German LQ (Release Title)](#german-lq-release-title) | [FR Remux Tier 02](#fr-remux-tier-02)           | [VOF](#vof)          |
+| [German Bluray Tier 01](#german-bluray-tier-01)             | [German Microsized](#german-microsized)               | [FR UHD Bluray Tier 01](#fr-uhd-bluray-tier-01) | [VFI](#vfi)          |
+| [German Bluray Tier 02](#german-bluray-tier-02)             | [German 1080p Booster](#german-1080p-booster)         | [FR UHD Bluray Tier 02](#fr-uhd-bluray-tier-02) | [VF2](#vf2)          |
+| [German Bluray Tier 03](#german-bluray-tier-03)             | [German 2160p Booster](#german-2160p-booster)         | [FR HD Bluray Tier 01](#fr-hd-bluray-tier-01)   | [VFQ](#vfq)          |
+| [German Web Tier 01](#german-web-tier-01)                   | [Line/Mic Dubbed](#linemic-dubbed)                    | [FR HD Bluray Tier 02](#fr-hd-bluray-tier-02)   | [VOQ](#voq)          |
+| [German Web Tier 02](#german-web-tier-02)                   |                                                       | [FR WEB Tier 01](#fr-web-tier-01)               | [VQ](#vq)            |
+| [German Web Tier 03](#german-web-tier-03)                   |                                                       | [FR WEB Tier 02](#fr-web-tier-02)               | [VFB](#vfb)          |
+| [German Scene](#german-scene)                               |                                                       | [FR Anime Tier 01](#fr-anime-tier-01)           | [VOSTFR](#vostfr)    |
+| [German Anime Bluray Tier 01](#german-anime-bluray-tier-01) |                                                       | [FR Anime Tier 02](#fr-anime-tier-02)           | [FanSUB](#fansub)    |
+| [German Anime Bluray Tier 02](#german-anime-bluray-tier-02) |                                                       | [FR Anime Tier 03](#fr-anime-tier-03)           | [FastSUB](#fastsub)  |
+| [German Anime Bluray Tier 03](#german-anime-bluray-tier-03) |                                                       | [FR Anime FanSub](#fr-anime-fansub)             |                      |
+| [German Anime Web Tier 01](#german-anime-web-tier-01)       |                                                       | [FR Scene Groups](#fr-scene-groups)             |                      |
+| [German Anime Web Tier 02](#german-anime-web-tier-02)       |                                                       | [FR LQ](#fr-lq)                                 |                      |
+| [German Anime Web Tier 03](#german-anime-web-tier-03)       |                                                       |                                                 |                      |
+| [German Anime Scene](#german-anime-scene)                   |                                                       |                                                 |                      |
+
+---
+
+| Custom Format Groups                                    |
+| ------------------------------------------------------- |
+| [Custom Format Groups](#custom-format-groups)           |
 
 ---
 
@@ -518,135 +530,6 @@ We've made 3 guides related to this.
 
 ---
 
-### DV HDR10Plus
-
-<sub>DV = DoVi = Dolby Vision</sub><br>
-<sub>HDR10+ = HDR10P = HDR10Plus</sub>
-
-??? question "Description - [Click to show/hide]"
-
-    {! include-markdown "../../includes/cf-descriptions/dv-hdr10plus.md" !}
-
-??? example "JSON - [Click to show/hide]"
-
-    ```json
-    [[% filter indent(width=4) %]][[% include 'json/radarr/cf/dv-hdr10plus.json' %]][[% endfilter %]]
-    ```
-
-<sub><sup>[TOP](#index)</sup></sub>
-
----
-
-### DV HDR10
-
-<sub>DV = DoVi = Dolby Vision</sub>
-
-??? question "Description - [Click to show/hide]"
-
-    {! include-markdown "../../includes/cf-descriptions/dv-hdr10.md" !}
-
-??? example "JSON - [Click to show/hide]"
-
-    ```json
-    [[% filter indent(width=4) %]][[% include 'json/radarr/cf/dv-hdr10.json' %]][[% endfilter %]]
-    ```
-
-<sub><sup>[TOP](#index)</sup></sub>
-
----
-
-### DV
-
-<sub>DV = DoVi = Dolby Vision</sub>
-
-??? question "Description - [Click to show/hide]"
-
-    --8<-- "includes/cf-descriptions/dv.md"
-
-<!-- the reason why we didn't use here `include-markdown` is because all the headers when using `include-markdown` will be looking in `/includes` and not the current markdown file, in this case, the pointer to `#dv-webdl` in `includes/dv.md` -->
-
-??? example "JSON - [Click to show/hide]"
-
-    ```json
-    [[% filter indent(width=4) %]][[% include 'json/radarr/cf/dv.json' %]][[% endfilter %]]
-    ```
-
-<sub><sup>[TOP](#index)</sup></sub>
-
----
-
-### DV HLG
-
-<sub>DV = DoVi = Dolby Vision</sub>
-
-??? question "Description - [Click to show/hide]"
-
-    {! include-markdown "../../includes/cf-descriptions/dv-hlg.md" !}
-
-??? example "JSON - [Click to show/hide]"
-
-    ```json
-    [[% filter indent(width=4) %]][[% include 'json/radarr/cf/dv-hlg.json' %]][[% endfilter %]]
-    ```
-
-<sub><sup>[TOP](#index)</sup></sub>
-
----
-
-### DV SDR
-
-<sub>DV = DoVi = Dolby Vision</sub>
-
-??? question "Description - [Click to show/hide]"
-
-    {! include-markdown "../../includes/cf-descriptions/dv-sdr.md" !}
-
-??? example "JSON - [Click to show/hide]"
-
-    ```json
-    [[% filter indent(width=4) %]][[% include 'json/radarr/cf/dv-sdr.json' %]][[% endfilter %]]
-    ```
-
-<sub><sup>[TOP](#index)</sup></sub>
-
----
-
-### HDR10Plus
-
-<sub>HDR10+ = HDR10P = HDR10Plus</sub>
-
-??? question "Description - [Click to show/hide]"
-
-    {! include-markdown "../../includes/cf-descriptions/hdr10plus.md" !}
-
-??? example "JSON - [Click to show/hide]"
-
-    ```json
-    [[% filter indent(width=4) %]][[% include 'json/radarr/cf/hdr10plus.json' %]][[% endfilter %]]
-    ```
-
-<sub><sup>[TOP](#index)</sup></sub>
-
----
-
-### HDR10
-
-<sub>HDR10</sub>
-
-??? question "Description - [Click to show/hide]"
-
-    {! include-markdown "../../includes/cf-descriptions/hdr10.md" !}
-
-??? example "JSON - [Click to show/hide]"
-
-    ```json
-    [[% filter indent(width=4) %]][[% include 'json/radarr/cf/hdr10.json' %]][[% endfilter %]]
-    ```
-
-<sub><sup>[TOP](#index)</sup></sub>
-
----
-
 ### HDR
 
 <sub>HDR</sub>
@@ -665,52 +548,36 @@ We've made 3 guides related to this.
 
 ---
 
-### HDR (undefined)
+### DV-Boost
+
+<sub>DV = DoVi = Dolby Vision</sub>
 
 ??? question "Description - [Click to show/hide]"
 
-    {! include-markdown "../../includes/cf-descriptions/hdr-undefined.md" !}
+    --8<-- "includes/cf-descriptions/dv-boost.md"
+
+<!-- the reason why we didn't use here `include-markdown` is because all the headers when using `include-markdown` will be looking in `/includes` and not the current markdown file, in this case, the pointer to `#dv-wo-hdr-fallback` in `includes/dv.md` -->
 
 ??? example "JSON - [Click to show/hide]"
 
     ```json
-    [[% filter indent(width=4) %]][[% include 'json/radarr/cf/hdr-undefined.json' %]][[% endfilter %]]
+    [[% filter indent(width=4) %]][[% include 'json/radarr/cf/dv-boost.json' %]][[% endfilter %]]
     ```
 
 <sub><sup>[TOP](#index)</sup></sub>
 
 ---
 
-### PQ
-
-<sub>PQ = PQ10</sub>
+### HDR10Plus Boost
 
 ??? question "Description - [Click to show/hide]"
 
-    {! include-markdown "../../includes/cf-descriptions/pq.md" !}
+    {! include-markdown "../../includes/cf-descriptions/hdr10plus-boost.md" !}
 
 ??? example "JSON - [Click to show/hide]"
 
     ```json
-    [[% filter indent(width=4) %]][[% include 'json/radarr/cf/pq.json' %]][[% endfilter %]]
-    ```
-
-<sub><sup>[TOP](#index)</sup></sub>
-
----
-
-### HLG
-
-<sub>HLG = HLG10</sub>
-
-??? question "Description - [Click to show/hide]"
-
-    {! include-markdown "../../includes/cf-descriptions/hlg.md" !}
-
-??? example "JSON - [Click to show/hide]"
-
-    ```json
-    [[% filter indent(width=4) %]][[% include 'json/radarr/cf/hlg.json' %]][[% endfilter %]]
+    [[% filter indent(width=4) %]][[% include 'json/radarr/cf/hdr10plus-boost.json' %]][[% endfilter %]]
     ```
 
 <sub><sup>[TOP](#index)</sup></sub>
@@ -737,50 +604,18 @@ We've made 3 guides related to this.
 
 ---
 
-### DV (WEBDL)
+### DV (w/o HDR fallback)
 
 <sub>DV = DoVi = Dolby Vision</sub>
 
 ??? question "Description - [Click to show/hide]"
 
-    {! include-markdown "../../includes/cf-descriptions/dv-webdl.md" !}
+    {! include-markdown "../../includes/cf-descriptions/dv-wo-hdr-fallback.md" !}
 
 ??? example "JSON - [Click to show/hide]"
 
     ```json
-    [[% filter indent(width=4) %]][[% include 'json/radarr/cf/dv-webdl.json' %]][[% endfilter %]]
-    ```
-
-<sub><sup>[TOP](#index)</sup></sub>
-
----
-
-### DV HDR10Plus Boost
-
-??? question "Description - [Click to show/hide]"
-
-    {! include-markdown "../../includes/cf-descriptions/dv-hdr10plus-boost.md" !}
-
-??? example "JSON - [Click to show/hide]"
-
-    ```json
-    [[% filter indent(width=4) %]][[% include 'json/radarr/cf/dv-hdr10plus-boost.json' %]][[% endfilter %]]
-    ```
-
-<sub><sup>[TOP](#index)</sup></sub>
-
----
-
-### HDR10Plus Boost
-
-??? question "Description - [Click to show/hide]"
-
-    {! include-markdown "../../includes/cf-descriptions/hdr10plus-boost.md" !}
-
-??? example "JSON - [Click to show/hide]"
-
-    ```json
-    [[% filter indent(width=4) %]][[% include 'json/radarr/cf/hdr10plus-boost.json' %]][[% endfilter %]]
+    [[% filter indent(width=4) %]][[% include 'json/radarr/cf/dv-wo-hdr-fallback.json' %]][[% endfilter %]]
     ```
 
 <sub><sup>[TOP](#index)</sup></sub>
@@ -1553,6 +1388,22 @@ We've made 3 guides related to this.
 
 ---
 
+### WiTH AD
+
+??? question "Description - [Click to show/hide]"
+
+    {! include-markdown "../../includes/cf-descriptions/with-ad.md" !}
+
+??? example "JSON - [Click to show/hide]"
+
+    ```json
+    [[% filter indent(width=4) %]][[% include 'json/radarr/cf/with-ad.json' %]][[% endfilter %]]
+    ```
+
+<sub><sup>[TOP](#index)</sup></sub>
+
+---
+
 ## HQ Release Groups
 
 ---
@@ -1767,6 +1618,24 @@ We've made 3 guides related to this.
 
     ```json
     [[% filter indent(width=4) %]][[% include 'json/radarr/cf/amzn.json' %]][[% endfilter %]]
+    ```
+
+<sub><sup>[TOP](#index)</sup></sub>
+
+---
+
+#### ATV
+
+<sub>Apple TV</sub>
+
+??? question "Description - [Click to show/hide]"
+
+    {! include-markdown "../../includes/cf-descriptions/atv.md" !}
+
+??? example "JSON - [Click to show/hide]"
+
+    ```json
+    [[% filter indent(width=4) %]][[% include 'json/radarr/cf/atv.json' %]][[% endfilter %]]
     ```
 
 <sub><sup>[TOP](#index)</sup></sub>
@@ -2001,6 +1870,42 @@ We've made 3 guides related to this.
 
     ```json
     [[% filter indent(width=4) %]][[% include 'json/radarr/cf/pmtp.json' %]][[% endfilter %]]
+    ```
+
+<sub><sup>[TOP](#index)</sup></sub>
+
+---
+
+#### PLAY
+
+<sub>Google Play</sub>
+
+??? question "Description - [Click to show/hide]"
+
+    {! include-markdown "../../includes/cf-descriptions/play.md" !}
+
+??? example "JSON - [Click to show/hide]"
+
+    ```json
+    [[% filter indent(width=4) %]][[% include 'json/radarr/cf/play.json' %]][[% endfilter %]]
+    ```
+
+<sub><sup>[TOP](#index)</sup></sub>
+
+---
+
+#### ROKU
+
+<sub>ROKU</sub>
+
+??? question "Description - [Click to show/hide]"
+
+    {! include-markdown "../../includes/cf-descriptions/roku.md" !}
+
+??? example "JSON - [Click to show/hide]"
+
+    ```json
+    [[% filter indent(width=4) %]][[% include 'json/radarr/cf/roku.json' %]][[% endfilter %]]
     ```
 
 <sub><sup>[TOP](#index)</sup></sub>
@@ -2371,224 +2276,224 @@ We've made 3 guides related to this.
 
 ---
 
-### Anime BD Tier 01 (Top SeaDex Muxers)
+### Anime BD Tier 01
 
 ??? question "Description - [Click to show/hide]"
 
-    {! include-markdown "../../includes/cf-descriptions/anime-bd-tier-01-top-seadex-muxers.md" !}
+    {! include-markdown "../../includes/cf-descriptions/anime-bd-tier-01.md" !}
 
 ??? example "JSON - [Click to show/hide]"
 
     ```json
-    [[% filter indent(width=4) %]][[% include 'json/radarr/cf/anime-bd-tier-01-top-seadex-muxers.json' %]][[% endfilter %]]
+    [[% filter indent(width=4) %]][[% include 'json/radarr/cf/anime-bd-tier-01.json' %]][[% endfilter %]]
     ```
 
 <sub><sup>[TOP](#index)</sup></sub>
 
 ---
 
-### Anime BD Tier 02 (SeaDex Muxers)
+### Anime BD Tier 02
 
 ??? question "Description - [Click to show/hide]"
 
-    {! include-markdown "../../includes/cf-descriptions/anime-bd-tier-02-seadex-muxers.md" !}
+    {! include-markdown "../../includes/cf-descriptions/anime-bd-tier-02.md" !}
 
 ??? example "JSON - [Click to show/hide]"
 
     ```json
-    [[% filter indent(width=4) %]][[% include 'json/radarr/cf/anime-bd-tier-02-seadex-muxers.json' %]][[% endfilter %]]
+    [[% filter indent(width=4) %]][[% include 'json/radarr/cf/anime-bd-tier-02.json' %]][[% endfilter %]]
     ```
 
 <sub><sup>[TOP](#index)</sup></sub>
 
 ---
 
-### Anime BD Tier 03 (SeaDex Muxers)
+### Anime BD Tier 03
 
 ??? question "Description - [Click to show/hide]"
 
-    {! include-markdown "../../includes/cf-descriptions/anime-bd-tier-03-seadex-muxers.md" !}
+    {! include-markdown "../../includes/cf-descriptions/anime-bd-tier-03.md" !}
 
 ??? example "JSON - [Click to show/hide]"
 
     ```json
-    [[% filter indent(width=4) %]][[% include 'json/radarr/cf/anime-bd-tier-03-seadex-muxers.json' %]][[% endfilter %]]
+    [[% filter indent(width=4) %]][[% include 'json/radarr/cf/anime-bd-tier-03.json' %]][[% endfilter %]]
     ```
 
 <sub><sup>[TOP](#index)</sup></sub>
 
 ---
 
-### Anime BD Tier 04 (SeaDex Muxers)
+### Anime BD Tier 04
 
 ??? question "Description - [Click to show/hide]"
 
-    {! include-markdown "../../includes/cf-descriptions/anime-bd-tier-04-seadex-muxers.md" !}
+    {! include-markdown "../../includes/cf-descriptions/anime-bd-tier-04.md" !}
 
 ??? example "JSON - [Click to show/hide]"
 
     ```json
-    [[% filter indent(width=4) %]][[% include 'json/radarr/cf/anime-bd-tier-04-seadex-muxers.json' %]][[% endfilter %]]
+    [[% filter indent(width=4) %]][[% include 'json/radarr/cf/anime-bd-tier-04.json' %]][[% endfilter %]]
     ```
 
 <sub><sup>[TOP](#index)</sup></sub>
 
 ---
 
-### Anime BD Tier 05 (Remuxes)
+### Anime BD Tier 05
 
 ??? question "Description - [Click to show/hide]"
 
-    {! include-markdown "../../includes/cf-descriptions/anime-bd-tier-05-remuxes.md" !}
+    {! include-markdown "../../includes/cf-descriptions/anime-bd-tier-05.md" !}
 
 ??? example "JSON - [Click to show/hide]"
 
     ```json
-    [[% filter indent(width=4) %]][[% include 'json/radarr/cf/anime-bd-tier-05-remuxes.json' %]][[% endfilter %]]
+    [[% filter indent(width=4) %]][[% include 'json/radarr/cf/anime-bd-tier-05.json' %]][[% endfilter %]]
     ```
 
 <sub><sup>[TOP](#index)</sup></sub>
 
 ---
 
-### Anime BD Tier 06 (FanSubs)
+### Anime BD Tier 06
 
 ??? question "Description - [Click to show/hide]"
 
-    {! include-markdown "../../includes/cf-descriptions/anime-bd-tier-06-fansubs.md" !}
+    {! include-markdown "../../includes/cf-descriptions/anime-bd-tier-06.md" !}
 
 ??? example "JSON - [Click to show/hide]"
 
     ```json
-    [[% filter indent(width=4) %]][[% include 'json/radarr/cf/anime-bd-tier-06-fansubs.json' %]][[% endfilter %]]
+    [[% filter indent(width=4) %]][[% include 'json/radarr/cf/anime-bd-tier-06.json' %]][[% endfilter %]]
     ```
 
 <sub><sup>[TOP](#index)</sup></sub>
 
 ---
 
-### Anime BD Tier 07 (P2P/Scene)
+### Anime BD Tier 07
 
 ??? question "Description - [Click to show/hide]"
 
-    {! include-markdown "../../includes/cf-descriptions/anime-bd-tier-07-p2pscene.md" !}
+    {! include-markdown "../../includes/cf-descriptions/anime-bd-tier-07.md" !}
 
 ??? example "JSON - [Click to show/hide]"
 
     ```json
-    [[% filter indent(width=4) %]][[% include 'json/radarr/cf/anime-bd-tier-07-p2pscene.json' %]][[% endfilter %]]
+    [[% filter indent(width=4) %]][[% include 'json/radarr/cf/anime-bd-tier-07.json' %]][[% endfilter %]]
     ```
 
 <sub><sup>[TOP](#index)</sup></sub>
 
 ---
 
-### Anime BD Tier 08 (Mini Encodes)
+### Anime BD Tier 08
 
 ??? question "Description - [Click to show/hide]"
 
-    {! include-markdown "../../includes/cf-descriptions/anime-bd-tier-08-mini-encodes.md" !}
+    {! include-markdown "../../includes/cf-descriptions/anime-bd-tier-08.md" !}
 
 ??? example "JSON - [Click to show/hide]"
 
     ```json
-    [[% filter indent(width=4) %]][[% include 'json/radarr/cf/anime-bd-tier-08-mini-encodes.json' %]][[% endfilter %]]
+    [[% filter indent(width=4) %]][[% include 'json/radarr/cf/anime-bd-tier-08.json' %]][[% endfilter %]]
     ```
 
 <sub><sup>[TOP](#index)</sup></sub>
 
 ---
 
-### Anime Web Tier 01 (Muxers)
+### Anime Web Tier 01
 
 ??? question "Description - [Click to show/hide]"
 
-    {! include-markdown "../../includes/cf-descriptions/anime-web-tier-01-muxers.md" !}
+    {! include-markdown "../../includes/cf-descriptions/anime-web-tier-01.md" !}
 
 ??? example "JSON - [Click to show/hide]"
 
     ```json
-    [[% filter indent(width=4) %]][[% include 'json/radarr/cf/anime-web-tier-01-muxers.json' %]][[% endfilter %]]
+    [[% filter indent(width=4) %]][[% include 'json/radarr/cf/anime-web-tier-01.json' %]][[% endfilter %]]
     ```
 
 <sub><sup>[TOP](#index)</sup></sub>
 
 ---
 
-### Anime Web Tier 02 (Top FanSubs)
+### Anime Web Tier 02
 
 ??? question "Description - [Click to show/hide]"
 
-    {! include-markdown "../../includes/cf-descriptions/anime-web-tier-02-top-fansubs.md" !}
+    {! include-markdown "../../includes/cf-descriptions/anime-web-tier-02.md" !}
 
 ??? example "JSON - [Click to show/hide]"
 
     ```json
-    [[% filter indent(width=4) %]][[% include 'json/radarr/cf/anime-web-tier-02-top-fansubs.json' %]][[% endfilter %]]
+    [[% filter indent(width=4) %]][[% include 'json/radarr/cf/anime-web-tier-02.json' %]][[% endfilter %]]
     ```
 
 <sub><sup>[TOP](#index)</sup></sub>
 
 ---
 
-### Anime Web Tier 03 (Official Subs)
+### Anime Web Tier 03
 
 ??? question "Description - [Click to show/hide]"
 
-    {! include-markdown "../../includes/cf-descriptions/anime-web-tier-03-official-subs.md" !}
+    {! include-markdown "../../includes/cf-descriptions/anime-web-tier-03.md" !}
 
 ??? example "JSON - [Click to show/hide]"
 
     ```json
-    [[% filter indent(width=4) %]][[% include 'json/radarr/cf/anime-web-tier-03-official-subs.json' %]][[% endfilter %]]
+    [[% filter indent(width=4) %]][[% include 'json/radarr/cf/anime-web-tier-03.json' %]][[% endfilter %]]
     ```
 
 <sub><sup>[TOP](#index)</sup></sub>
 
 ---
 
-### Anime Web Tier 04 (Official Subs)
+### Anime Web Tier 04
 
 ??? question "Description - [Click to show/hide]"
 
-    {! include-markdown "../../includes/cf-descriptions/anime-web-tier-04-official-subs.md" !}
+    {! include-markdown "../../includes/cf-descriptions/anime-web-tier-04.md" !}
 
 ??? example "JSON - [Click to show/hide]"
 
     ```json
-    [[% filter indent(width=4) %]][[% include 'json/radarr/cf/anime-web-tier-04-official-subs.json' %]][[% endfilter %]]
+    [[% filter indent(width=4) %]][[% include 'json/radarr/cf/anime-web-tier-04.json' %]][[% endfilter %]]
     ```
 
 <sub><sup>[TOP](#index)</sup></sub>
 
 ---
 
-### Anime Web Tier 05 (FanSubs)
+### Anime Web Tier 05
 
 ??? question "Description - [Click to show/hide]"
 
-    {! include-markdown "../../includes/cf-descriptions/anime-web-tier-05-fansubs.md" !}
+    {! include-markdown "../../includes/cf-descriptions/anime-web-tier-05.md" !}
 
 ??? example "JSON - [Click to show/hide]"
 
     ```json
-    [[% filter indent(width=4) %]][[% include 'json/radarr/cf/anime-web-tier-05-fansubs.json' %]][[% endfilter %]]
+    [[% filter indent(width=4) %]][[% include 'json/radarr/cf/anime-web-tier-05.json' %]][[% endfilter %]]
     ```
 
 <sub><sup>[TOP](#index)</sup></sub>
 
 ---
 
-### Anime Web Tier 06 (FanSubs)
+### Anime Web Tier 06
 
 ??? question "Description - [Click to show/hide]"
 
-    {! include-markdown "../../includes/cf-descriptions/anime-web-tier-06-fansubs.md" !}
+    {! include-markdown "../../includes/cf-descriptions/anime-web-tier-06.md" !}
 
 ??? example "JSON - [Click to show/hide]"
 
     ```json
-    [[% filter indent(width=4) %]][[% include 'json/radarr/cf/anime-web-tier-06-fansubs.json' %]][[% endfilter %]]
+    [[% filter indent(width=4) %]][[% include 'json/radarr/cf/anime-web-tier-06.json' %]][[% endfilter %]]
     ```
 
 <sub><sup>[TOP](#index)</sup></sub>
@@ -3329,6 +3234,118 @@ We've made 3 guides related to this.
 
 ---
 
+### German Anime Bluray Tier 01
+
+??? question "Description - [Click to show/hide]"
+
+    {! include-markdown "../../includes/cf-descriptions/german-anime-bluray-tier-01.md" !}
+
+??? example "JSON - [Click to show/hide]"
+
+    ```json
+    [[% filter indent(width=4) %]][[% include 'json/radarr/cf/german-anime-bluray-tier-01.json' %]][[% endfilter %]]
+    ```
+
+<sub><sup>[TOP](#index)</sup></sub>
+
+---
+
+### German Anime Bluray Tier 02
+
+??? question "Description - [Click to show/hide]"
+
+    {! include-markdown "../../includes/cf-descriptions/german-anime-bluray-tier-02.md" !}
+
+??? example "JSON - [Click to show/hide]"
+
+    ```json
+    [[% filter indent(width=4) %]][[% include 'json/radarr/cf/german-anime-bluray-tier-02.json' %]][[% endfilter %]]
+    ```
+
+<sub><sup>[TOP](#index)</sup></sub>
+
+---
+
+### German Anime Bluray Tier 03
+
+??? question "Description - [Click to show/hide]"
+
+    {! include-markdown "../../includes/cf-descriptions/german-anime-bluray-tier-03.md" !}
+
+??? example "JSON - [Click to show/hide]"
+
+    ```json
+    [[% filter indent(width=4) %]][[% include 'json/radarr/cf/german-anime-bluray-tier-03.json' %]][[% endfilter %]]
+    ```
+
+<sub><sup>[TOP](#index)</sup></sub>
+
+---
+
+### German Anime Web Tier 01
+
+??? question "Description - [Click to show/hide]"
+
+    {! include-markdown "../../includes/cf-descriptions/german-anime-web-tier-01.md" !}
+
+??? example "JSON - [Click to show/hide]"
+
+    ```json
+    [[% filter indent(width=4) %]][[% include 'json/radarr/cf/german-anime-web-tier-01.json' %]][[% endfilter %]]
+    ```
+
+<sub><sup>[TOP](#index)</sup></sub>
+
+---
+
+### German Anime Web Tier 02
+
+??? question "Description - [Click to show/hide]"
+
+    {! include-markdown "../../includes/cf-descriptions/german-anime-web-tier-02.md" !}
+
+??? example "JSON - [Click to show/hide]"
+
+    ```json
+    [[% filter indent(width=4) %]][[% include 'json/radarr/cf/german-anime-web-tier-02.json' %]][[% endfilter %]]
+    ```
+
+<sub><sup>[TOP](#index)</sup></sub>
+
+---
+
+### German Anime Web Tier 03
+
+??? question "Description - [Click to show/hide]"
+
+    {! include-markdown "../../includes/cf-descriptions/german-anime-web-tier-03.md" !}
+
+??? example "JSON - [Click to show/hide]"
+
+    ```json
+    [[% filter indent(width=4) %]][[% include 'json/radarr/cf/german-anime-web-tier-03.json' %]][[% endfilter %]]
+    ```
+
+<sub><sup>[TOP](#index)</sup></sub>
+
+---
+
+### German Anime Scene
+
+??? question "Description - [Click to show/hide]"
+
+    {! include-markdown "../../includes/cf-descriptions/german-anime-scene.md" !}
+
+??? example "JSON - [Click to show/hide]"
+
+    ```json
+    [[% filter indent(width=4) %]][[% include 'json/radarr/cf/german-anime-scene.json' %]][[% endfilter %]]
+    ```
+
+<sub><sup>[TOP](#index)</sup></sub>
+
+---
+
 ## German Miscellaneous
 
 ---
@@ -3545,6 +3562,22 @@ We've made 3 guides related to this.
 
 ---
 
+### Language: German Anime Subbed
+
+??? question "Description - [Click to show/hide]"
+
+    {! include-markdown "../../includes/cf-descriptions/german-anime-subbed.md" !}
+
+??? example "JSON - [Click to show/hide]"
+
+    ```json
+    [[% filter indent(width=4) %]][[% include 'json/radarr/cf/german-anime-subbed.json' %]][[% endfilter %]]
+    ```
+
+<sub><sup>[TOP](#index)</sup></sub>
+
+---
+
 ### Language: Not German or English
 
 ??? question "Description - [Click to show/hide]"
@@ -3558,3 +3591,98 @@ We've made 3 guides related to this.
     ```
 
 <sub><sup>[TOP](#index)</sup></sub>
+
+---
+
+### Language: Not German, Japanese or English
+
+??? question "Description - [Click to show/hide]"
+
+    {! include-markdown "../../includes/cf-descriptions/language-not-german-japanese-or-english.md" !}
+
+??? example "JSON - [Click to show/hide]"
+
+    ```json
+    [[% filter indent(width=4) %]][[% include 'json/radarr/cf/language-not-german-japanese-or-english.json' %]][[% endfilter %]]
+    ```
+
+<sub><sup>[TOP](#index)</sup></sub>
+
+---
+
+### Language: Not German, Japanese, Korean, Chinese or English
+
+??? question "Description - [Click to show/hide]"
+
+    {! include-markdown "../../includes/cf-descriptions/language-not-german-japanese-korean-chinese-or-english.md" !}
+
+??? example "JSON - [Click to show/hide]"
+
+    ```json
+    [[% filter indent(width=4) %]][[% include 'json/radarr/cf/language-not-german-japanese-korean-chinese-or-english.json' %]][[% endfilter %]]
+    ```
+
+<sub><sup>[TOP](#index)</sup></sub>
+
+---
+
+## Custom Format Groups
+
+Custom Format Groups are logical groupings of custom formats used by sync tools such as [Recyclarr](https://recyclarr.dev){:target="_blank" rel="noopener noreferrer"} and [Notifiarr](https://notifiarr.com){:target="_blank" rel="noopener noreferrer"}. Each group bundles related custom formats together for easier profile management and/or display.
+
+!!! info
+
+    Custom Format Groups are metadata used by external sync tools and are shown here for reference only. They are **not** designed to be imported into Radarr and cannot be used directly within the application.
+
+---
+
+<!-- markdownlint-disable MD011 MD022 MD055 MD056 -->
+{%- macro cf_slug(name) -%}{{ name | lower | replace('+', 'plus') | replace('(', '') | replace(')', '') | replace('/', '') | replace('.', '') | replace(' ', '-') | replace('--', '-') }}{%- endmacro -%}
+{% set ns = namespace(current_category='') -%}
+{% for key, group in radarr['cf-groups']|dictsort -%}
+{% if not (key.startswith('sqp-') or key.endswith('-sqp')) -%}
+{% set category = group['name'].split(']')[0][1:] -%}
+{% if category != ns.current_category -%}
+{% set ns.current_category = category -%}
+
+### {{ category }}
+
+---
+
+{% endif -%}
+
+#### {{ group['name'].split('] ')[1] }}
+
+| Group Name | Trash ID | Default |
+| --- | --- | :---: |
+| {{ group['name'] }} | `{{ group['trash_id'] }}` | {% if group['default'] is defined and group['default'] == 'true' %}:white_check_mark:{% else %}:x:{% endif %} |
+
+??? question "Description - [Click to show/hide]"
+
+    {{ group['trash_description'] | replace('<br>', '\n    ') }}
+
+| Custom Format | Trash ID | Required |
+| --- | --- | :---: |
+{% for cf in group['custom_formats'] -%}
+| [{{ cf['name'] }}](#{{ cf_slug(cf['name']) }}) | `{{ cf['trash_id'] }}` | {% if cf['required'] %}:white_check_mark:{% else %}:x:{% endif %} |
+{% endfor %}
+
+{% if group.get('quality_profiles', {}).get('include', {}) -%}
+??? abstract "Applicable Quality Profiles - [Click to show/hide]"
+
+    | Quality Profile | Trash ID |
+    | --- | --- |
+    {%- for pname, pid in group.get('quality_profiles', {}).get('include', {})|dictsort %}
+    {%- if '[sqp]' not in pname|lower %}
+    | {{ pname }} | `{{ pid }}` |
+    {%- endif %}
+    {%- endfor %}
+
+{% endif -%}
+<sub><sup>[TOP](#index)</sup></sub>
+
+---
+
+{% endif -%}
+{% endfor -%}
+<!-- markdownlint-enable MD011 MD022 MD055 MD056 -->
